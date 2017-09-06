@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.weiqi.test.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通 样式（不写入文件）"
+        />
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON 样式（不写入文件）"
+        />
+
+    <Button
+        android:id="@+id/btn_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大量数据（写入文件）"
+        />
+
+    <Button
+        android:id="@+id/btn_im"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入后缀为im的文件"
+        />
+
+    <Button
+        android:id="@+id/btn_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同步方式写入后缀为crash的文件"
+        />
+
+    <Button
+        android:id="@+id/btn_performance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性能压测（写入文件）"
+        />
+
+    <Button
+        android:id="@+id/btn_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模拟网络日志"
+        />
+
+
+    <Button
+        android:id="@+id/btn_comparator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="fileComparator"
+        />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="App退出"
+        />
+
+</LinearLayout>
