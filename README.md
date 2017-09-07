@@ -36,9 +36,15 @@
 #### 三、基础功能
 1. 添加依赖和配置
 ```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+    
 dependencies {
-    compile 'com.weiqi:slog:x.x.x'
-    ...
+	compile 'com.github.wangweiqi23:SLog:v1.0.0'
 }
 ```
 
