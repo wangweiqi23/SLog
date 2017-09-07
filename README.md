@@ -99,7 +99,7 @@ dependencies {
 ```
 
 
-4. 打印日志
+3. 打印日志
 ``` java
 // 1. 应用内简单的应用
 SLog.d(TAG, "测试");
@@ -110,7 +110,7 @@ SLog.d(TAG, "测试");
 SLog.wtfParams(TAG, "catch a crash info", "carsh", true);
 ```
 
-5. 添加混淆规则(如果使用了Proguard)
+4. 添加混淆规则(如果使用了Proguard)
 ``` 
 -keepattributes SourceFile, LineNumberTable
 -keep class com.weiqi.slog.** { *; }
@@ -153,5 +153,5 @@ DefaultFilePrinter(String logDir, CacheHelper cacheHelper)
 
 1. 沟通和交流
 
-    我的简书：
+    我的简书：http://www.jianshu.com/users/884c2e4b6e38/timeline
     
