@@ -4,19 +4,21 @@
     Android log日志库 －功能齐全，扩展性强，性能高效。（只需一次初始化，就可以随心处理log）
 ```
 
-##### [![Join the chat at https://gitter.im/alibaba/ARouter](https://badges.gitter.im/alibaba/ARouter.svg)](https://gitter.im/alibaba/ARouter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+<img src='https://travis-ci.org/elvishew/xLog.svg?branch=master'/>
 
 ---
 
 #### 最新版本
 
-模块|slog-api
+模块|Demo apk
 ---|---
-最新版本|[![Download](https://api.bintray.com/packages/zhi1ong/maven/arouter-api/images/download.svg)](https://bintray.com/zhi1ong/maven/arouter-api/_latestVersion)
+最新版本|[Download](https://github.com/wangweiqi23/SLog/blob/master/image/app-debug.apk)
 
 #### Demo展示
 
-##### [Demo apk下载](http://public.cdn.zhilong.me/app-debug.apk)、[Demo Gif](https://raw.githubusercontent.com/alibaba/ARouter/master/demo/arouter-demo.gif)
+##### [去看看更多效果图](https://github.com/wangweiqi23/SLog/blob/master/image)
+
+<img src='https://github.com/wangweiqi23/SLog/blob/master/image/JSON.png'/>
 
 #### 一、功能介绍
 1. **支持多个通道打印日志，可自定义实现打印机**
