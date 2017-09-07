@@ -51,7 +51,7 @@ dependencies {
 ```
 
 2. 初始化
-``` Application
+``` java
 @Override
     public void onCreate() {
         super.onCreate();
