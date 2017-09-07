@@ -30,7 +30,7 @@ public class TestApplication extends Application {
 
         //init log
         Settings settings = new Settings.Builder()
-                .context(context)
+                .context(context)//获取设备信息等写到日志文件头部
                 .mLogSegment(LogSegment.TWENTY_FOUR_HOURS)//保存日志文件时间切片 如果缓存日志量大可以使用小时间片
                 .zoneOffset(ZoneOffset.P0800)//保存日志时区偏移
                 .timeFormat(SLogConstants.DEFAULT_TIME_FORMAT)//保存日志时间格式
