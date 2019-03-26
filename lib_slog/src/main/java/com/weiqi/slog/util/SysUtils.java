@@ -110,7 +110,7 @@ public class SysUtils {
             PackageManager manager = context.getPackageManager();
             PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
             appVersionCode = info.versionCode;
-        } catch (PackageManager.NameNotFoundException e) {
+        } catch (Exception e) {
             Log.e("SysUtils", e.getMessage());
         }
         return appVersionCode;
@@ -128,7 +128,7 @@ public class SysUtils {
             PackageManager manager = context.getPackageManager();
             PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
             appVersionName = info.versionName;
-        } catch (PackageManager.NameNotFoundException e) {
+        } catch (Exception e) {
             Log.e("SysUtils", e.getMessage());
         }
         return appVersionName;
