@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SLogApplication.iml" filepath="$PROJECT_DIR$/SLogApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SLog.iml" filepath="$PROJECT_DIR$/SLog.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_slog/lib_slog.iml" filepath="$PROJECT_DIR$/lib_slog/lib_slog.iml" />
     </modules>
